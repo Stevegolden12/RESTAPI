@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\src"
+    "\\src",
+    "\\src\\routes"
   ],
-  "SelectedNode": "\\public\\index.html",
+  "SelectedNode": "\\src\\routes\\person.js",
   "PreviewInSolutionExplorer": false
 }
