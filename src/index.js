@@ -5,8 +5,11 @@ let personRoute = require('./routes/person')
 
 let path = require('path')
 
-//Handlers order matters they cascade
+let bodyParser = require('body-parser')
 
+app.use(bodyParser.json())
+
+//Handlers order matters they cascade
 app.use((req, res, next) => {
   console.log(`${new Date().toString()} => ${req.originalUrl}`);
   next();
