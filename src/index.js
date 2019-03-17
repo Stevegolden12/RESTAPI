@@ -1,6 +1,7 @@
 let express = require('express');
 let app = express();
 let personRoute = require('./routes/person')
+let customerRoute = require('./routes/customer')
 let path = require('path');
 let bodyParser = require('body-parser')
 
