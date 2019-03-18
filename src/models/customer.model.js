@@ -5,7 +5,8 @@ const database = 'cluster0';
 const user = 'User1';
 const password = 'User1';
 
-mongoose.connect('mongodb+srv://User1:<password>@cluster0-pgooz.gcp.mongodb.net/test?retryWrites=true', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://User1:User1@cluster0-pgooz.gcp.mongodb.net/test?retryWrites=true', { useNewUrlParser: true });
+mongoose.set('useCreateIndex', true);
 
 let CustomerSchema = new mongoose.Schema({
   name: String,

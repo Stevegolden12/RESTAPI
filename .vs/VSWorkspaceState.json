@@ -3,8 +3,9 @@
     "",
     "\\public",
     "\\src",
+    "\\src\\models",
     "\\src\\routes"
   ],
-  "SelectedNode": "\\src\\routes\\person.js",
+  "SelectedNode": "\\src\\models\\customer.model.js",
   "PreviewInSolutionExplorer": false
 }
