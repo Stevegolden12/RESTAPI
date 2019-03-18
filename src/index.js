@@ -7,7 +7,7 @@ let bodyParser = require('body-parser')
 
 app.use(bodyParser.json())
 
-//Handlers order matters they cascade
+//Handlers order matters they cascade 
 app.use((req, res, next) => {
   console.log(`${new Date().toString()} => ${req.originalUrl}`);
   next();
