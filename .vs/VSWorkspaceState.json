@@ -6,6 +6,6 @@
     "\\src\\models",
     "\\src\\routes"
   ],
-  "SelectedNode": "\\src\\models\\customer.model.js",
+  "SelectedNode": "\\src\\routes\\customer.js",
   "PreviewInSolutionExplorer": false
 }
